@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  font-family: 'Voces', cursive;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 84px;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 68px;
+}
+
+h3 {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 32px;
+  font-weight: 100;
+  font-stretch: condensed;
+}
+
+.hero {
+  min-height: 100vh;
+  padding-top: 24vh;
+}
+
+.hero-sub {
+  margin-top: 10vh;
+}
+
+.about-me {
+  min-height: 100vh;
+  padding-top: 24vh;
+  padding-bottom: 24vh;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.about-me-sub {
+  margin-top: 10vh;
+  max-width: 60vw;
+}
+
+.about-me-phrase-1 {
+  margin-top: 5vh;
+}
+
+.about-me-phrase-2 {
+  margin-top: 40vh;
+}
+
+.about-me-phrase-3 {
+  margin-top: 40vh;
+}
