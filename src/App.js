@@ -56,23 +56,22 @@ function App() {
     </section>
     <section class="about-me">
       <div class="container">
-        <h4>
-          A few words about me...
+        <h4 class="about-me-title">
+          I would describe myself as
         </h4>
         <div class="about-me-sub">
-          <div class="about-me-phrase-1">
+          <div class="about-me-phrase">
             <h3>
-              I love solving problems and will stay laser focused until I get to the bottom of them.
+              An <strong>independent thinker.</strong>
             </h3>
-          </div>
-          <div class="about-me-phrase-2">
             <h3>
-              I am an independent thinker with an open mind to learn new things.
+              A highly focused <strong>problem solver.</strong>
             </h3>
-          </div>
-          <div class="about-me-phrase-3">
             <h3>
-              I am well organised and pay deep attention to detail.
+              An <strong>open mind</strong> for learning.
+            </h3>
+            <h3>
+              Well <strong>organised</strong> with a deep <strong>attention for detail.</strong>
             </h3>
           </div>
         </div>

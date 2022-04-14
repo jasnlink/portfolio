@@ -16,19 +16,25 @@ h2 {
 }
 
 h3 {
-  font-size: 48px;
-  font-weight: bold;
+  font-size: 64px;
+  line-height: 96px;
+  color: #4e4e4e;
+}
+
+strong {
+  color: #000000;
 }
 
 h4 {
   font-size: 32px;
-  font-weight: 100;
-  font-stretch: condensed;
+  font-weight: bold;
 }
 
 .hero {
   min-height: 100vh;
   padding-top: 24vh;
+  background-color: #000000;
+  color: #ffffff;
 }
 
 .hero-sub {
@@ -39,8 +45,12 @@ h4 {
   min-height: 100vh;
   padding-top: 24vh;
   padding-bottom: 24vh;
-  background-color: #000000;
-  color: #ffffff;
+
+}
+
+.about-me-title {
+  font-size: 42px;
+  font-weight: bold;
 }
 
 .about-me-sub {
@@ -48,14 +58,6 @@ h4 {
   max-width: 60vw;
 }
 
-.about-me-phrase-1 {
+.about-me-phrase {
   margin-top: 5vh;
-}
-
-.about-me-phrase-2 {
-  margin-top: 40vh;
-}
-
-.about-me-phrase-3 {
-  margin-top: 40vh;
 }
