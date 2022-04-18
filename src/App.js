@@ -88,7 +88,7 @@ function App() {
           <img class="project-img" src="https://msmtech.ca/wp-content/uploads/2022/04/AnimationFull1.gif" alt="" />
         </div>
         <div class="project-content col">
-          <h4>Project Title</h4>
+          <h4>Tableside scan to order system</h4>
         </div>
       </div>
     </section>
