@@ -56,7 +56,7 @@ function App() {
     </section>
     <section class="about-me">
       <div class="container">
-        <h4 class="about-me-title">
+        <h4>
           I would describe myself as
         </h4>
         <div class="about-me-sub">
@@ -78,12 +78,17 @@ function App() {
       </div>
     </section>
     <section class="projects">
-      <div class="container">
-        <h4 class="projects-title">
+      <div class="row">
+        <h4>
           Some projects that I worked on
         </h4>
-        <div>
-          <img src="https://msmtech.ca/wp-content/uploads/2022/04/AnimationFull1.gif" alt="" />
+      </div>
+      <div class="row">
+        <div class="project-img-container col">
+          <img class="project-img" src="https://msmtech.ca/wp-content/uploads/2022/04/AnimationFull1.gif" alt="" />
+        </div>
+        <div class="project-content col">
+          <h4>Project Title</h4>
         </div>
       </div>
     </section>
