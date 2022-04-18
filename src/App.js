@@ -75,7 +75,16 @@ function App() {
             </h3>
           </div>
         </div>
-        
+      </div>
+    </section>
+    <section class="projects">
+      <div class="container">
+        <h4 class="projects-title">
+          Some projects that I worked on
+        </h4>
+        <div>
+          <img src="https://msmtech.ca/wp-content/uploads/2022/04/AnimationFull1.gif" alt="" />
+        </div>
       </div>
     </section>
   </>

@@ -61,3 +61,14 @@ h4 {
 .about-me-phrase {
   margin-top: 5vh;
 }
+
+.projects {
+  min-height: 100vh;
+  padding-top: 24vh;
+  padding-bottom: 24vh;
+}
+
+.projects-title {
+  font-size: 42px;
+  font-weight: bold;
+}
