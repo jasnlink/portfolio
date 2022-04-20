@@ -7,35 +7,6 @@ import './styles/styles.css';
 function App() {
 
 
-  const [scrolling, setScrolling] = useState(false)
-
-  useEffect(() => {
-
-    window.onscroll = (() => checkScrolling())
-
-  }, [])
-
-
-  let locked = false
-  let lastCall = false
-
-  function checkScrolling() {
-
-    if(locked) return;
-
-    if(lastCall) clearTimeout(lastCall);
-
-    lastCall = setTimeout(() => {
-      checkScrolling();
-      // you do this because you want to handle the last
-      // scroll event, even if it occurred while another
-      // event was being processed.
-    }, 1000);
-    console.log('scrolling');
-    locked = false
-  }
-
-
   return (
   <>
     <section class="hero">
@@ -88,7 +59,12 @@ function App() {
           <img class="project-img" src="https://msmtech.ca/wp-content/uploads/2022/04/AnimationFull1.gif" alt="" />
         </div>
         <div class="project-content col">
-          <h4>Tableside scan to order system</h4>
+          <div class="row">
+            <h4>Tableside scan to order system</h4>
+          </div>
+          <div class="row">
+            <h4>Tableside scan to order system</h4>
+          </div>
         </div>
       </div>
     </section>
